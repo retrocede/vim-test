@@ -1,5 +1,5 @@
 if !exists('g:test#javascript#vitest#file_pattern')
-  let g:test#javascript#vitest#file_pattern = '\v(__tests__/.*|(spec|test))\.(js|jsx|coffee|ts|tsx)$'
+  let g:test#javascript#vitest#file_pattern = '\v(spec|test|tests)\.(js|jsx|coffee|ts|tsx)$'
 endif
 
 function! test#javascript#vitest#test_file(file) abort
